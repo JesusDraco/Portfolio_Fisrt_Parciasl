@@ -1,0 +1,24 @@
+div {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+.top-conteiner {
+    background-color: red;
+    bottom: 15px;
+    left: 400px;
+
+}
+
+.middle-conteiner {
+    background-color: blue;
+    bottom: 215px;
+    left: 200px;
+}
+
+.bottom-conteiner {
+    background-color: yellow;
+    top: 0px;
+    left: 0px;
+}

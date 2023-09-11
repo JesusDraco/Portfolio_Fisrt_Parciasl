@@ -1,0 +1,94 @@
+ /* Estilos globales */
+ body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    color: gray;
+  }
+  
+  
+  li {
+    margin-bottom: 20px;
+    padding-left: 30px;
+  
+  }
+  
+  /* Estilos para las imágenes */
+  img {
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para los márgenes de las listas */
+  ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* Agrega márgenes a las listas anidadas */
+  ul ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+
+  .header h1{
+    color: aqua;
+    padding: 20px;
+    border: black dashed 10px;
+    margin: 20px;
+  }
+
+  .header strong{
+    font-size: x-large;
+    display: block;
+  }
+
+  .header~nav{
+    font-size: normal;
+    font-size: medium;
+    color: blueviolet;
+    background-color: chartreuse;
+  }
+
+  .highlight {
+    font-family: monospace;
+  }
+
+  .header blockquote{
+    font-size: xx-large;
+    display: inline;
+  }
+
+  .header blockquote{
+    color: yellow;
+  }
+
+  .skills li::first-letter{
+    font-size: xx-large;
+  }
+
+  ol[start]{
+    background-color: darkgoldenrod;
+  }
